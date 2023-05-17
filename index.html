@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Tatto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> -->
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&amp;display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- <link rel="stylesheet" href="css/slider2.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/overflow.css">
+</head>
+
+<body>
+    <section class="first-section">
+        <nav class="navbar">
+            <div class="navbar-first-box">
+                <div class="social-media">
+                    <a href="#"><img src="image/fb.png" alt=""></a>
+                    <a href="#"><img src="image/twit.png" alt=""></a>
+                    <a href="#"><img src="image/insta.png" alt=""></a>
+                    <a href="#"><img src="image/ytb.png" alt=""></a>
+                </div>
+            </div>
+            <div class="navbar-secound-box">
+                <div class="call">
+                    <img src="image/call.png" alt="">
+                    <a href="#">Hotline: 888-227-9442</a>
+                </div>
+                <div class="email">
+                    <img src="image/msg.png" alt="">
+                    <a href="#">EMAIL: info@mastertattooinstitute.com</a>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+
+    <section class="secound-section">
+        <div class="search-bar">
+            <div class="logo">
+                <img src="image/logo.jpg" alt="">
+            </div>
+            <img id="burger" class="burger" src="image/burger.png" alt="">
+            <div class="search ">
+                <input class="input" type="text" placeholder="Search">
+                <button class="search-btn">
+                    <img src="image/serch.png" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="navigation" class="navigation navigation-display">
+        <div class="navigation-list-container">
+            <ul class="navigation-list ">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Classes</li>
+                </a>
+                <a href="#">
+                    <li>Student Service</li>
+                </a>
+                <a href="#">
+                    <li>Contact us</li>
+                </a>
+                <a href="#">
+                    <li>My Account</li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/2.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/7.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/9.png" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <section class="week">
+        <div class="week-box">
+            <div class="first-box">
+                <p>Classes Start Every 6 Weeks</p>
+                <h4>New Term Begins</h4>
+            </div>
+            <span></span>
+            <div class="secound-box">
+                <p>August 2nd, 2021</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="payment">
+        <div class="payment-container">
+            <p class="payment-para1">PAYMENT</p>
+            <H3>PLANS</H3>
+            <P class="payment-para2">STARTING AT $120/MONTH</P>
+            <a href="">LEARN MORE</a>
+        </div>
+    </section>
+
+
+    <section class="class">
+        <div class="class-container">
+            <div class="white-box">
+                <h5>Online Classes</h5>
+                <img src="image/online-class-new.png" alt="">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="blue-box">
+                <h5>On-Campus Classes</h5>
+                <img src="image/on-campus.png" alt="">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <button>LEARN MORE</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="Courses">
+        <div class="courses-container">
+            <div class="top-hadding">
+                <p>Explore all the</p>
+                <h4>COURSES</h4>
+            </div>
+            <div class="course-list">
+                <ul>
+                    <p class="tab" onclick="showItems('A')">BUNDLE TATTOO COURSES</p>
+                    <p class="tab" onclick="showItems('B')">TATTOO COURSES</p>
+                    <p class="tab" onclick="showItems('C')">BODY PIERCING COURSES</p>
+                    <p class="tab" onclick="showItems('D')">ART COURSES</p>
+                    <p class="tab" onclick="showItems('E')">COSMETIC TATTOO COURS</p>
+                </ul>
+            </div>
+        </div>
+        <div class="course-detail" id="A">
+            <div class="course-box course-box-show1">
+                <img src="image/1.jpg" alt="">
+                <div class="box-item">
+                    <h6 class="had-padding-bottom">Apprentice Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Intermediate</span>
+                </div>
+                <div class="course-box-para ">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus ">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+            <div class="course-box course-box-show2">
+                <img src="image/2.jpg" alt="">
+                <div class="box-item">
+                    <h6>Master Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                </div>
+                <div class="course-box-para">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+            <div class="course-box course-box-show3">
+                <img src="image/3.jpg" alt="">
+                <div class="box-item">
+                    <h6>Cosmetic Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                </div>
+                <div class="course-box-para">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+            <div class="course-box course-box-show4">
+                <img src="image/4.jpg" alt="">
+                <div class="box-item">
+                    <h6 class="had-padding-bottom">Master Cosmetic Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                </div>
+                <div class="course-box-para">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="course-detail course-detail-display" id="B">
+            <div class="course-box course-box-show1">
+                <img src="image/1.jpg" alt="">
+                <div class="box-item">
+                    <h6 class="had-padding-bottom">Apprentice Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Intermediate</span>
+                </div>
+                <div class="course-box-para ">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus ">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+            <div class="course-box course-box-show2">
+                <img src="image/2.jpg" alt="">
+                <div class="box-item">
+                    <h6>Master Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                </div>
+                <div class="course-box-para">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+            </div>
+            <div class="course-box course-box-show3">
+                <img src="image/3.jpg" alt="">
+                <div class="box-item">
+                    <h6>Cosmetic Bundle</h6>
+                    <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                </div>
+                <div class="course-box-para">
+                    <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to ...
+                    </p>
+                </div>
+                <div class="on-campus">
+                    <p>On-Campus</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                </div>
+                <span class="line"></span>
+                <div class="online">
+                    <p>online</p>
+                    <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+            <div class="course-detail course-detail-display" id="C">
+                <div class="course-box course-box-show1">
+                    <img src="image/1.jpg" alt="">
+                    <div class="box-item">
+                        <h6 class="had-padding-bottom">Apprentice Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Intermediate</span>
+                    </div>
+                    <div class="course-box-para ">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus ">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+                <div class="course-box course-box-show2">
+                    <img src="image/2.jpg" alt="">
+                    <div class="box-item">
+                        <h6>Master Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                    </div>
+                    <div class="course-box-para">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="course-detail course-detail-display" id="D">
+                <div class="course-box course-box-show1">
+                    <img src="image/1.jpg" alt="">
+                    <div class="box-item">
+                        <h6 class="had-padding-bottom">Apprentice Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Intermediate</span>
+                    </div>
+                    <div class="course-box-para ">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus ">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="course-detail course-detail-display" id="E">
+                <div class="course-box course-box-show1">
+                    <img src="image/1.jpg" alt="">
+                    <div class="box-item">
+                        <h6 class="had-padding-bottom">Apprentice Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Intermediate</span>
+                    </div>
+                    <div class="course-box-para ">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus ">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+                <div class="course-box course-box-show2">
+                    <img src="image/2.jpg" alt="">
+                    <div class="box-item">
+                        <h6>Master Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                    </div>
+                    <div class="course-box-para">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+                <div class="course-box course-box-show3">
+                    <img src="image/3.jpg" alt="">
+                    <div class="box-item">
+                        <h6>Cosmetic Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                    </div>
+                    <div class="course-box-para">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+                <div class="course-box course-box-show4">
+                    <img src="image/4.jpg" alt="">
+                    <div class="box-item">
+                        <h6 class="had-padding-bottom">Master Cosmetic Bundle</h6>
+                        <span><img src="image/1-sub.png" alt=""> Advanced</span>
+                    </div>
+                    <div class="course-box-para">
+                        <p>Let’s get ready to tattoo! Part 1 of Boot Camp is designed for all things preparing you to
+                            ...
+                        </p>
+                    </div>
+                    <div class="on-campus">
+                        <p>On-Campus</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 4 Weeks</span>
+                    </div>
+                    <span class="line"></span>
+                    <div class="online">
+                        <p>online</p>
+                        <span class="on-campus-span"> <img src="image/clock.png" alt=""> 52 Weeks</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="licensed">
+        <div class="licensed-container">
+            <div class="licensed-details-box">
+                <p>THE ONLY TATTOO SCHOOL</p>
+                <h5>LICENSED</h5>
+                <span>BY THE DEPARTMENT OF EDUCATION</span>
+                <a href="#">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="showcase">
+        <div class="showcase-container">
+
+        </div>
+    </section> -->
+
+    <section class="mti">
+        <div class="mti-container">
+            <div class="mti-blue-box">
+                <h6>Develop skill with</h6>
+                <h3>MTI</h3>
+                <img src="image/Mti_blue.jpg" alt="">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="mti-white-box">
+                <h6>Develop skill with</h6>
+                <h3>MTI</h3>
+                <img src="image/Mti_white.png" alt="">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <button>LEARN MORE</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="scolarship">
+        <div class="scholardhip-container">
+            <div class="half-box">
+                <h4>SCHOLARSHIPS</h4>
+                <h3>AVAILABLE</h3>
+                <p class="scholarship-para1">PAYMENT PLANS AVAILABLE</p>
+                <p class="scholarship-para2">STARTING AT $120 PER MONTH</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <secttion class="footer-sec">
+            <div class="footer-container">
+                <div class="footer-Details">
+                    <ul>
+                        <li> <i class="fa fa-envelope-o"></i><a href="#"> INFO@YOURSITE.COM</a></li>
+                        <li><i class="fa fa-mobile"></i><a href="#"> 1 234 56 789</a></li>
+                        <li><i class="fa fa-map-marker"></i><a href="#"> 2277 LOREM AVE.,SAN DIEGO, CA 22553</a></li>
+                        <li><i class="fa fa-clock-o"></i><a href="#">TUES - FRI 10 - 8 SAT 10 - 5</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sing-Up">
+                    <div class="input1">
+                        <input type="name" placeholder="NAME*">
+                        <input type="email" placeholder="E-MAIL*">
+                    </div>
+                    <div class="input2">
+                        <textarea name="" placeholder="MASSEGE*" id="" cols="30" rows="10"></textarea>
+                        <a href="#">SEND</a>
+                    </div>
+                </div>
+            </div>
+        </secttion>
+    </footer>
+
+
+    <section class="last">
+        <div class="last-container">
+            <p>&copy; 2023 Master Tattoo Institute. All Rights Reserved. Designed And Developed By Ogrelogic. Terms &
+                Conditions | Privacy Policy</p>
+            <div class="icons">
+                <span><i class="fa fa-facebook"></i></span>
+                <span><i class="fa fa-twitter"></i></span>
+                <span><i class="fa fa-linkedin"></i></span>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- floting button -->
+
+    <div class="flooting-container">
+        <div class="floting-box">
+            <a href="#"><img src="image/chat.png" alt=""></a>
+        </div>
+        <div class="floting-box">
+            <a href="#"><img src="image/sprt.png" alt=""></a>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <!-- <script src="js/slider2.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

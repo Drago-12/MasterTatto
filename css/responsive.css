@@ -1,0 +1,458 @@
+@media screen and (max-width: 1300px) {
+    .navbar-secound-box {
+        width: 65%;
+    }
+
+    .logo {
+        padding-left: 20px;
+
+    }
+
+    .course-list ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .course-detail {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .half-box h4 {
+        font-size: 50px;
+    }
+
+    .half-box h3 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .payment-para1 {
+        font-size: 67px;
+
+    }
+
+    .payment-para2 {
+
+        font-size: 30px;
+    }
+
+    .payment-container h3 {
+        font-size: 76px;
+
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .search input {
+        width: 250px;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .navigation-list a li {
+        font-size: 16px;
+
+    }
+
+    .licensed-details-box p {
+        font-size: 35px;
+    }
+
+    .licensed-details-box h5 {
+        font-size: 125px;
+    }
+
+    .licensed-details-box span {
+        font-size: 35px;
+    }
+
+    /* .licensed-details-box a {} */
+
+    .licensed-details-box {
+        width: auto;
+    }
+
+    .payment-para1 {
+        font-size: 55px;
+
+    }
+
+    .payment-para2 {
+
+        font-size: 20px;
+    }
+
+    .payment-container h3 {
+        font-size: 60px;
+
+    }
+
+    .payment-container {
+        width: 80%;
+        border: none;
+        align-items: normal;
+        /* margin-right: 30px; */
+    }
+
+    .payment-container a {
+        width: 115px;
+    }
+
+    .footer-container {
+        /* flex-direction: column; */
+        height: auto;
+    }
+
+    .footer-Details ul li i {
+        font-size: 15px;
+    }
+
+    .footer-Details ul li a {
+        font-size: 11px;
+    }
+
+    .input2 textarea {
+        width: 380px;
+        height: 130px;
+    }
+
+    .input1 input {
+        width: 200px;
+    }
+
+    .footer-sing-Up {
+        /* width: 425px; */
+        width: 90%;
+        height: auto;
+    }
+    .footer-sec{
+        height: auto;
+        padding: 30px 0;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar-first-box {
+        padding: 20px 0 10px 0;
+    }
+
+    .navbar-secound-box {
+        padding-bottom: 20px;
+    }
+
+    .licensed-details-box p {
+        font-size: 30px;
+    }
+
+    .licensed-details-box h5 {
+        font-size: 115px;
+    }
+
+    .licensed-details-box span {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .mti-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mti-blue-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        padding-left: 0;
+    }
+
+    .mti-blue-box img {
+        display: block;
+        width: 86vw;
+        margin: auto;
+    }
+
+
+    .mti-white-box img {
+        display: block;
+        width: 86vw;
+        margin: auto;
+    }
+
+    .mti-white-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        padding-left: 0;
+
+    }
+
+    .mti-blue-box p {
+        width: 86vw;
+        padding: 17px 0 28px 59px;
+    }
+
+    .mti-blue-box h6 {
+        padding-left: 59px;
+    }
+
+    .mti-blue-box h3 {
+        padding-left: 59px;
+
+    }
+
+    .mti-blue-box button {
+        margin-left: 59px;
+
+    }
+
+
+
+    .mti-white-box p {
+        width: 86vw;
+        padding: 17px 0 28px 59px;
+    }
+
+    .mti-white-box h6 {
+        padding-left: 59px;
+    }
+
+    .mti-white-box h3 {
+        padding-left: 59px;
+
+    }
+
+    .mti-white-box button {
+        margin-left: 59px;
+
+    }
+
+    .half-box {
+        width: auto;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 818px) {
+    .navbar-secound-box {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .email {
+        padding-top: 15px;
+        width: auto;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .burger {
+        display: inline;
+    }
+
+    .navigation-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: normal;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .navigation-display {
+        display: none;
+    }
+
+    .class-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .white-box img {
+        width: 80vw;
+    }
+
+    .white-box p {
+        width: 80vw;
+    }
+
+    .blue-box {
+        width: 100vw;
+        padding-top: 20px;
+        background-color: #283C55;
+        padding-left: 43px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 30px;
+    }
+
+    .blue-box img {
+        width: 80vw;
+    }
+
+    .blue-box p {
+        width: 80vw;
+    }
+
+    .licensed-details-box p {
+        font-size: 25px;
+    }
+
+    .licensed-details-box h5 {
+        font-size: 95px;
+    }
+
+    .licensed-details-box span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .week-box {
+        flex-direction: column;
+        width: auto;
+        padding: 23px 0;
+        height: 100px;
+    }
+
+    .week-box span {
+        display: none;
+    }
+
+    .first-box p {
+        font-size: 18px;
+    }
+
+    .first-box h4 {
+        font-size: 20px;
+    }
+
+    .secound-box p {
+        font-size: 20px;
+    }
+
+    .secound-box {
+        padding-right: 76px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .course-detail {
+        justify-content: center;
+    }
+
+    .licensed-details-box p {
+        font-size: 20px;
+    }
+
+    .licensed-details-box h5 {
+        font-size: 65px;
+    }
+
+    .licensed-details-box span {
+        font-size: 20px;
+    }
+
+    .half-box h4 {
+        font-size: 30px;
+    }
+
+    .half-box h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .scholarship-para1 {
+        font-size: 20px;
+    }
+
+    .scholarship-para2 {
+        font-size: 20px;
+    }
+
+    .input1 {
+        flex-direction: column;
+        height: 112px;
+        /* width: 71%;
+        margin: auto; */
+    }
+
+    .input1 input {
+        width: 90vw;
+        margin: auto;
+        /* width: 69%; */
+    }
+
+    .input2 textarea {
+        width: 80vw;
+    }
+    .input2{
+        margin-top: 42px;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .licensed-details-box p {
+        font-size: 18px;
+    }
+
+    .licensed-details-box h5 {
+        font-size: 55px;
+    }
+
+    .licensed-details-box span {
+        font-size: 18px;
+    }
+    .input1 {
+        /* flex-direction: column;
+        height: 112px; */
+        width: 71%;
+        margin: auto;
+    }
+
+    .input1 input {
+        /* width: 90vw; */
+        margin: auto;
+        width: 69%;
+    }
+    .input2{
+        width: 71%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .input2 textarea{
+        margin: auto;
+        width: 69%;
+    }
+    .mti-white-box p {
+        font-size: 16px;
+    }
+    .mti-blue-box p {
+        font-size: 16px;
+    }
+}
